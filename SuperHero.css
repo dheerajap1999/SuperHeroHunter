@@ -1,0 +1,26 @@
+body{
+    /* background-image: url(./Images/Super.jpg); */
+    background-color: #f2f2f2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Times New Roman', Times, serif, Arial, Helvetica, sans-serif;
+}
+
+#table-container{
+    margin-top: 7rem;
+}
+.card-image{
+    height: 250px;
+}
+.card-text{
+    height: 100px;
+}
+.card{
+    height: 400px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
+.card-body{
+    padding: 5px;
+}

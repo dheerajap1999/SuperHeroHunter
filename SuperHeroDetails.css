@@ -1,0 +1,15 @@
+.main-Container{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-between;
+    gap: 2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    min-height: calc(100vh - 20px);
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
