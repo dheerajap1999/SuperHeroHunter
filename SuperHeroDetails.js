@@ -8,7 +8,7 @@ function fetchHerosByID() {
         redirect: 'follow'
       };
       
-      fetch(`http://gateway.marvel.com/v1/public/characters/${characterId}?ts=1693735382476&apikey=4ec60e32b11e96d4032a112748f4d389&hash=5a05700d4757d0d899b2034c1c24c451`, requestOptions)
+      fetch(`https://gateway.marvel.com/v1/public/characters/${characterId}?ts=1693735382476&apikey=4ec60e32b11e96d4032a112748f4d389&hash=5a05700d4757d0d899b2034c1c24c451`, requestOptions)
         .then(response => response.json())
         .then(result => {
             

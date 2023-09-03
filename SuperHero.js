@@ -89,7 +89,7 @@ function heroApiCall(isQuery,value) {
         method: 'GET',
         redirect: 'follow'
     };
-    let apiUrl = "http://gateway.marvel.com/v1/public/characters?ts=1693735382476&apikey=4ec60e32b11e96d4032a112748f4d389&hash=5a05700d4757d0d899b2034c1c24c451"
+    let apiUrl = "https://gateway.marvel.com/v1/public/characters?ts=1693735382476&apikey=4ec60e32b11e96d4032a112748f4d389&hash=5a05700d4757d0d899b2034c1c24c451"
     if (isQuery){
         apiUrl = `${apiUrl}&nameStartsWith=${value}`
     }
